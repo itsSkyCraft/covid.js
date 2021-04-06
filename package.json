@@ -1,5 +1,5 @@
 {
-  "name": "covid.js",
+  "name": "covid-cli.js",
   "version": "1.0.0",
   "description": "A Package For getting Covid Info With A better Way",
   "main": "index.js",

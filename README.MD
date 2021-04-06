@@ -1,16 +1,16 @@
-## Covid.js
+## Covid-cli.js
 An Advanced package For Getting Covid Info And Command Line InterFaces
 ## installation
-Hey there! if you Want to install ``covid.js``,
+Hey there! if you Want to install ``covid-cli.js``,
 Do 
 ```
-npm i -g covid.js
+npm i -g covid-cli.js
 ```
 it Requires a Global if you Wanted to try Our CLI!
 ## Basic Usage
 To get started, Here An Example Of Getting Worldwide Covid!
 ```js
-const covid = require('covid.js');
+const covid = require('covid-cli.js');
 
 covid.all().then(res => {
     console.log(res);
@@ -27,7 +27,7 @@ covid.all().then(res => {
 ```
 And Heres an Example of getting Country Covid info
 ```js
-const covid = require('covid.js');
+const covid = require('covid-cli.js');
 
 covid.getCountry('Indonesia').then(res => {
     console.log(res);
@@ -43,7 +43,7 @@ covid.getCountry('Indonesia').then(res => {
 });
 ```
 ## Cli Usage
-To Use The Covid CLI, You Have to install this Globally. using ``npm i -g covid.js``
+To Use The Covid CLI, You Have to install this Globally. using ``npm i -g covid-cli.js``
 And To Use the cli, type ``covid`` in Command prompt. Heres the Example of the CLI.
 ![CliExample](./Images/Cli.png)
 And If you Wanted to get WorldWide, Choose all.
