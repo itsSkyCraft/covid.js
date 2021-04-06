@@ -1,0 +1,32 @@
+{
+  "name": "covid.js",
+  "version": "1.0.0",
+  "description": "A Package For getting Covid Info With A better Way",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsSkyCraft/covid.js.git"
+  },
+  "keywords": [
+    "covid",
+    "cli"
+  ],
+  "author": "theproggrammerguy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsSkyCraft/covid.js/issues"
+  },
+  "homepage": "https://github.com/itsSkyCraft/covid.js#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "enquirer": "^2.3.6",
+    "figlet": "^1.5.0",
+    "node-fetch": "^2.6.1"
+  },
+  "bin": {
+    "covid": "./cli.js"
+  }
+}
