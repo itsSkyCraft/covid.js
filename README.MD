@@ -46,3 +46,7 @@ covid.getCountry('Indonesia').then(res => {
 To Use The Covid CLI, You Have to install this Globally. using ``npm i -g covid.js``
 And To Use the cli, type ``covid`` in Command prompt. Heres the Example of the CLI.
 ![CliExample](./Images/Cli.png)
+And If you Wanted to get WorldWide, Choose all.
+![anotherexample](./Images/Cli2.png)
+And If you Want to Search for a Country, Choose ``get Country Covid Info``.
+you Can Exit by Choosing Exit!
